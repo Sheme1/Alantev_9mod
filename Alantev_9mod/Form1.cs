@@ -80,7 +80,6 @@ namespace Alantev_9mod
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
-            textBox4.Clear();
         }
 
 
@@ -122,7 +121,6 @@ namespace Alantev_9mod
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
-            textBox4.Clear();
         }
 
 
@@ -154,7 +152,6 @@ namespace Alantev_9mod
             textBox1.Clear();
             textBox2.Clear();
             textBox3.Clear();
-            textBox4.Clear();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -236,7 +233,7 @@ namespace Alantev_9mod
                 textBox1.Text = row.Cells["FirstName"].Value.ToString();
                 textBox2.Text = row.Cells["LastName"].Value.ToString();
                 textBox3.Text = row.Cells["Speciality"].Value.ToString();
-                textBox4.Text = row.Cells["DateOfHire"].Value.ToString();
+                dateTimePicker1.Text = row.Cells["DateOfHire"].Value.ToString();
             }
         }
 

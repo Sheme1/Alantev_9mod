@@ -261,6 +261,7 @@
             // 
             // dateTimePicker1
             // 
+            dateTimePicker1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             dateTimePicker1.Location = new Point(336, 429);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(200, 23);
